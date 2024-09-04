@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#nav {
+    width: 100%;
+    height: 55px;
+    background-color: rgb(28, 50, 83);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-left {
+    width: 150px;
+    height: 55px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+#nav-left h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+#nav-center {
+    width: 50vh;
+    height: 55px;
+    /* background-color: rgb(68, 109, 41); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#nav-center a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+
+}
+
+#nav-right {
+    width: 150px;
+    height: 55px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+}
+
+#nav-right button {
+    cursor: pointer;
+    padding: 7px 10px;
+    border: 2px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+#section1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./WhatsApp\ Image\ 2024-07-09\ at\ 16.24.36_c4911d27.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minibox {
+    width: 20vw;
+    height: 80px;
+    background-color: rgb(109, 176, 221);
+}
+
+.minibox p {
+    text-align: center;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.minibox button {
+    cursor: pointer;
+    padding: 13px 18px;
+    background-color: rgb(255, 251, 0);
+    border: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 5.9vw;
+}
+
+#section2 {
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(71, 50, 50); */
+}
+
+#h2 {
+    width: 100%;
+    height: 35px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#h2 h2 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 25vh;
+
+}
+
+#p1 {
+    width: 100%;
+    height: 40px;
+    /* background-color: rgb(109, 109, 39); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+#p1 p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+}
+
+#section3 {
+    width: 100%;
+    height: 42vh;
+    background-color: rgb(28, 50, 83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#section3-top {
+    width: 85%;
+    height: 42vh;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.dor-box {
+    width: 27%;
+    height: 35vh;
+    /* background-color: aqua; */
+    position: relative;
+
+
+}
+
+#box1 {
+    width: 100%;
+    height: 30vh;
+    background-color: gray;
+    position: absolute;
+    bottom: 35%;
+    margin-left: 50px;
+}
+
+#box1 img {
+    width: 100%;
+    height: 30vh;
+    border: 8px solid white;
+}
+
+.h4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    width: 100%;
+    height: 20px;
+    /* background-color: blueviolet; */
+
+}
+
+.h4 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+
+}
+
+.button1 button {
+    cursor: pointer;
+    padding: 11px 18px;
+    background-color: rgb(255, 251, 0);
+    border: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+#box2 {
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(12, 150, 127);
+    position: absolute;
+    bottom: 35%;
+}
+
+#box2 img {
+    width: 100%;
+    height: 30vh;
+    border: 8px solid white;
+}
+
+#p2 {
+    width: 40vw;
+    height: 50px;
+    /* background-color: green; */
+    margin-top: 15px;
+    position: absolute;
+    left: -7vw;
+}
+
+#p2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+#h3 {
+    width: 40vw;
+    height: 50px;
+    /* background-color: green; */
+    margin-top: 50px;
+    position: absolute;
+    left: 8.2vw;
+}
+
+#h3 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 200;
+}
+
+#box3 {
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(161, 38, 124);
+    position: absolute;
+    bottom: 35%;
+    margin-left: -50px;
+}
+
+#box3 img {
+    width: 100%;
+    height: 30vh;
+    border: 8px solid white;
+}
+
+#section4 {
+    width: 100%;
+    height: 60vh;
+    /* background-color: rgb(68, 50, 50); */
+    display: flex;
+    justify-content: center;
+}
+
+
+#dor-box2 {
+    width: 73%;
+    height: 60vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#box4 {
+    width: 50%;
+    height: 60vh;
+    /* background-color: rgb(88, 187, 7); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#mini-box1 {
+    width: 90%;
+    height: 45vh;
+    /* background-color: blanchedalmond; */
+}
+
+#mini-box1 img {
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+}
+
+#box5 {
+    width: 48%;
+    height: 60vh;
+    /* background-color: rgb(126, 2, 209); */
+    display: flex;
+    align-items: center;
+}
+
+#mini-box2 {
+    width: 90%;
+    height: 45vh;
+    /* background-color: blanchedalmond; */
+}
+
+#mini-box2 p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-top: 45%;
+}
+
+#mini-box2 button {
+    cursor: pointer;
+    padding: 14px 20px;
+    background-color: rgb(255, 230, 0);
+    border: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 27px;
+}
+
+
+#section5 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(./WhatsApp\ Image\ 2024-07-09\ at\ 16.24.36_c7f87b67.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#footer {
+    width: 100%;
+    height: 27vh;
+    background-color:rgb(28, 50, 83);
+    display: flex;
+    justify-content: space-evenly;
+    /* border-bottom: 2px solid white; */
+}
+
+
+#coding {
+    width: 25%;
+    height: 27vh;
+    /* background-color: rgb(34, 66, 34); */
+    margin-left: 90px;
+}
+
+#coding h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+}
+
+#coding p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 19px;
+}
+
+#menu {
+    width: 15%;
+    height: 27vh;
+    /* background-color: green; */
+
+}
+
+#menu h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-top: 45px;
+
+}
+
+#menu p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 19px;
+}
+
+#more {
+    width: 15%;
+    height: 27vh;
+    /* background-color: rgb(38, 0, 128); */
+/* margin-right: 100px; */
+}
+
+
+#more h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-top: 45px;
+
+}
+
+#more p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 19px;
+}
+
+#categories {
+    width: 15%;
+    height: 27vh;
+    /* background-color: rgb(0, 98, 128); */
+}
+
+#categories h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-top: 45px;
+
+}
+
+#categories p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 19px;
+}
+
+#social-media {
+    width: 20%;
+    height: 27vh;
+    /* background-color: rgb(62, 128, 0); */
+    position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#social-media h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 130px;
+    /* margin-top: 45px; */
+    /* margin-left: 50px; */
+
+}
+
+.icon{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 35%;
+}
+
+
+
+
+#footer2{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(28, 50, 83);
+    display: flex;
+    justify-content: space-between;
+    /* border-top: 2px solid white; */
+    /* margin-left: 107px; */
+    /* margin-right: 16px; */
+}
+
+#left{
+    width: 20%;
+    height: 60px;
+    /* background-color: aqua; */
+    margin-left: 107px;
+    display: flex;
+    align-items: center;
+}
+
+#left p{
+ font-family: Arial, Helvetica, sans-serif;
+ color: white;
+ font-weight: 10;
+}
+
+#right{
+    width: 20%;
+    height: 60px;
+    /* background-color: rgb(255, 0, 212); */
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+#right a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+   }
